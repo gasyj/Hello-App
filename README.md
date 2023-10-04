@@ -1,8 +1,6 @@
 # Hello-App
 
-# Simple Flask Web App
-
-A simple Flask web application that displays a "Congratulations, Web App is Live!" message when accessed.
+A simple Flask web application that displays a "Hurray API is Live!" message when accessed.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -33,8 +31,8 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   $ git clone https://github.com/your-username/simple-flask-webapp.git
-   $ cd simple-flask-webapp
+   $ git clone https://github.com/your-username/Hello-App.git
+   $ cd Hello-App
    ```
 
 2. Run the Flask application:
@@ -43,7 +41,7 @@ Before you begin, ensure you have the following installed:
    $ python main.py
    ```
 
-3. Open a web browser and visit [http://localhost:9000](http://localhost:9000) to see the message "Congratulations, Web App is Live!"
+3. Open a web browser and visit http://localhost:8080 to see the message "Hurray! API is Live!"
 
 ## Usage
 
