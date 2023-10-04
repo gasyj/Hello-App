@@ -2,8 +2,11 @@
 
 from flask import Flask
 
-app = Flask(_name_)
+app = Flask(__name__)
 
-@app.route("/")
-def index():
-    return "Congratulations, Web App is Live!"
+@app.route('/')
+def hello_world():
+	return 'Hello World!'
+
+if __name__ == "__main__":
+	app.run()
